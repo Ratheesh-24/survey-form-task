@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FROM RK Hotels</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+ <div class="container">
+<header class="header">
+    <h1 id="title">Survey Form of RK Hotels</h1>
+    <p id="description">
+        Thank you for taking the time to help us to improve the platform.
+    </p>
+</header>
+<form action="" id="survey-form">
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name"id="name"
+        class="formControl" placeholder="Enter Your Name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email"id="email"
+        class="formControl" placeholder="Enter Your Email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="number" name="phone"id="phone"
+        class="formControl" placeholder="Enter Your Phone Number" required>
+    </div>
+    <div class="form-group">
+        <label for="address">Address<span class="clue">(optional)</span></label>
+        <input type="text" name="address"id="address"
+        class="formControl" placeholder="Enter Your Address" required>
+        
+        <div class="form-group">
+            <p id="quest">How come you know about Our Restaurant?</p>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="friends"
+                class="inputradio"
+                checked>friends
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="online-ads"
+                class="inputradio"
+                >online-ads
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="tv-ads"
+                class="inputradio"
+                >Tv-ads
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="newspaper"
+                class="inputradio"
+                >Newspaper
+            </label>
+        </div>
+        <div class="form-group">
+            <p id="quest">Would you like to see Improvization on?</p>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="masala dosa">Masala-dosa
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="biriyani">Biriyani
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="mutton dosa">Mutton-dosa
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="mutton chops">Mutton-chops
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="chettinad gravy">Chettinad-gravy
+            </label>
+        </div>
+           <div class="form-group">
+               <p id="quest">Give us your feedback</p>
+               <textarea name="feedback"
+               id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter Your Feedback"></textarea>
+           </div>
+              <div class="form-group">
+               <button type="submit" id="submit" class="btn">Submit</button>
+
+              </div>
+
+    </div>
+
+
+</form>
+
+ </div>
+</body>
+</html>
